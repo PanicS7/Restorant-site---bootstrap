@@ -1,0 +1,164 @@
+﻿/* RESETS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #61122f;
+}
+/* NAVIGATION STYLE */
+nav {
+    background-color: #f6b319;
+}
+#logoImageLink {
+    display: none;
+}
+.navbar-text {
+    margin-left: 15px;
+}
+.navbar-text h1 {
+    color: #557c3e;
+    text-shadow: 2px 2px 1px #222;
+    font-size: 1.3em;
+}
+.navbar-text a:hover {
+    text-decoration: none;
+}
+.navbar-nav {
+    font-size: 1.3em;
+}
+.nav-link {
+    text-align:center;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #61122f;
+}
+.nav-link:hover {
+    background-color: #e7e7e7;
+}
+.nav-item {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.nav-item i {
+    color: #61122f;
+}
+.nav-item br {
+    display: none;
+}
+#phoneNumber {
+    display: none;
+}
+#phoneNumber p {
+    color: #557c3e;
+}
+#call {
+    background: #f6b319;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+#call a {
+    color: #61122f;
+}
+#call p {
+    color: #557c3e;
+}
+/* MAIN SECTION STYLE */
+/* big image */
+.container .jumbotron {
+    background: #61122f;
+}
+.img-thumbnail {
+    background-color: #f6b319;
+    border: 0;     
+    width: 1000px;
+}
+/* tiles sections */
+#tiles div {
+    width: 100%;
+    height: 250px;
+    border: 1px solid #000;
+    position: relative;
+}
+#tiles:hover {
+    cursor: pointer;
+}
+#tiles div:hover {
+    box-shadow: 0 1px 5px 1px #ccc;
+}
+#menu-tile {
+    background: url("./images/menu-tile.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#specials-tile {
+    background: url("./images/specials-tile.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+#tiles span {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #000;
+    color: #fff;
+    opacity: 0.6;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+#map-tile iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/*FOOTER STYLE*/
+footer {
+    margin-top: 40px;
+}
+footer .col-md-4 {
+    padding-top: 40px;
+}
+footer section span {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+footer #address p {
+    margin-top: 10px;
+    color: #557c3e;
+    line-height: 1.2;
+    font-size: 0.9em;
+}
+footer #testimonials {
+    font-style:italic;
+}
+#copy {
+    padding: 20px 0;
+}
+@media (max-width:540px) {
+    .navbar-text h1 {
+        font-size: 0.73em;
+        text-shadow: 1px 1px 1px #222;
+    }
+
+    .navbar-text p {
+        font-size: 0.7em;
+    }
+
+    .navbar-toggler {
+        display: inline;
+    } 
+}
+@media (max-width:768px) {
+    footer {
+        text-align: center;
+    }
+    footer hr {
+        width: 50%;
+        margin: 10px auto 0;
+    }
+}
